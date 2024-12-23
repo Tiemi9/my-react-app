@@ -1,0 +1,47 @@
+header {
+    background-color: #333333;
+    box-shadow: 0 .4rem .7rem rgba(0, 0, 0, 0.25);
+}
+
+header nav#navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 8rem;
+    
+    font-family: "Grenze", serif;
+    font-size: 2rem;
+}
+
+header nav#navbar .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header nav#navbar .nav-list a {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff6c;
+    font-size: 1.1rem;
+}
+
+header nav#navbar .nav-list a:visited {
+    color: #ffffff;
+}
+
+header nav#navbar .nav-list a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: color .3s;
+}
