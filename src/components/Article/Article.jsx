@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../assets/Rectangle30.png";
 import "./style.css"
 
 export class Article extends React.Component {
@@ -7,17 +6,15 @@ export class Article extends React.Component {
         return (
             
             <article id="article">
-                <img src={Image} alt="" />
+                <img src={this.props.thumbnail} alt={this.props.title} />
                             
                 <div className="article-description">
 
-                    <h2> Designing Dashboards</h2>
+                    <h2>{this.props.title}</h2>
 
-                    <span>Nasa</span>
+                    <span>{this.props.provider}</span>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sint inventore ex laboriosam iste obcaecati, voluptatibus eligendi nam. Assumenda reiciendis itaque tempore accusantium atque earum quam repellat iusto aperiam veniam.
-                    </p>
+                    <p>{this.props.description}</p>
                 
                 </div>
             </article>
