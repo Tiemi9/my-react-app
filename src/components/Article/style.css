@@ -1,0 +1,33 @@
+#article {
+    display: flex;
+    width: 864px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+#article h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: .5rem;
+}
+
+#article .article-description span {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff6c;
+}
+
+#article .article-description p {
+    margin-top: 1.5rem;
+}
+
+
+@media screen and (max-width: 966px) {
+    #article {
+        display: block;
+        margin: 1.5rem;
+    }
+    .article-description {
+        max-width: 70vh;
+    }
+}

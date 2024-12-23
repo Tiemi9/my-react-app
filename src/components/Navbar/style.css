@@ -9,7 +9,7 @@ header nav#navbar {
     justify-content: space-between;
 
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
     padding: 0 5rem;
 }
 
@@ -20,9 +20,8 @@ header nav#navbar .nav-brand {
     height: 8rem;
     
     font-family: "Grenze", serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-
 header nav#navbar .nav-list {
     list-style: none;
     display: flex;
@@ -31,7 +30,6 @@ header nav#navbar .nav-list {
 }
 
 header nav#navbar .nav-list a {
-    font-family: 'Roboto', sans-serif;
     color: #ffffff6c;
     font-size: 1.1rem;
 }
@@ -44,4 +42,36 @@ header nav#navbar .nav-list a:hover {
     color: #ffffff;
     cursor: pointer;
     transition: color .3s;
+}
+
+@media screen and (min-width: 767px) and (max-width: 999px) {
+    header nav#navbar .nav-brand {
+        font-size: smaller;
+    } header nav#navbar .nav-brand img {
+        width: 3rem;
+    }
+    header nav#navbar .nav-list {
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 766px) {
+    
+    header nav#navbar  {
+        padding: 1rem 2rem 1rem 0;
+    }
+    header nav#navbar .nav-brand {
+        font-size: 1rem;
+        margin: 0 1rem;
+    } header nav#navbar .nav-brand img {
+        width: 2.5rem;
+    }
+    header nav#navbar .nav-list {
+        gap: .8rem;
+        font-size: .3rem;
+        flex-direction: column;
+    }
+    header nav#navbar .nav-list a {
+        
+    }
 }

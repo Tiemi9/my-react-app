@@ -6,6 +6,7 @@
 
 body {
     background-color: #222222;
+    font-family: 'Roboto';
     color: white;
 }
 
@@ -13,3 +14,6 @@ a {
     text-decoration: none;
 }
 
+#artcles {
+    gap: 4.6rem;
+}
