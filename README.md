@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ministrado por Ada Tech, em parceria com a Santander, esse projeto foi desenvolvido para fins didáticos com objetivo de introduzir novos conhecimentos sobre React. 
 
-Currently, two official plugins are available:
+- Componentização;
+- Props;
+- Estados;
+- Ciclo de vida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Preview](./.public/Preview.png)
+
+## Linguagens Utilizadas:
+- HTML, 
+- CSS e 
+- React.
+
+
+ ### 🎉 Agradecimentos 
+
+_"Gratidão à todos os envolvidos nesse curso, Santander, Ada Tech e Let's Code que dedicaram seu tempo para formação de novos profissionais."_
