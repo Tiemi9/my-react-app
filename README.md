@@ -7,7 +7,7 @@ Ministrado por Ada Tech, em parceria com a Santander, esse projeto foi desenvolv
 - Estados;
 - Ciclo de vida.
 
-![Preview](./.public/Preview.png)
+![Preview](./public/Preview.png)
 
 ## Linguagens Utilizadas:
 - HTML, 
